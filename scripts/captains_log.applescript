@@ -15,8 +15,8 @@ if userText is not "" then
     -- Create the log entry
     set logEntry to (return & "## " & timeString & " - Voice Note" & return & userText & return)
     
-    -- Set the file path (update this path to match your Obsidian vault location)
-    set logFile to (path to home folder as string) & "Obsidian:Daily Logs:" & dateString & " Captain's Log.md"
+    -- Set the file path to the correct Obsidian vault location
+    set logFile to (path to home folder as string) & "Documents:Obsidian:Daily Logs:" & dateString & " Captain's Log.md"
     
     -- Append to file (create if doesn't exist)
     try

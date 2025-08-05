@@ -19,7 +19,7 @@ cd captains-log-voice
 ```
 
 ### Step 2: Update the Script Path
-Edit `scripts/captains_log.applescript` and update this line to match your Obsidian vault location:
+The script is pre-configured for the standard Obsidian vault location (`~/Documents/Obsidian/`). If your vault is elsewhere, edit `scripts/captains_log.applescript` and update this line:
 ```applescript
 set logFile to (path to home folder as string) & "Documents:Obsidian:Daily Logs:" & dateString & " Captain's Log.md"
 ```
