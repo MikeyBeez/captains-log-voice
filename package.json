@@ -1,0 +1,29 @@
+{
+  "name": "captains-log-voice",
+  "version": "1.0.0",
+  "description": "Voice-controlled captain's log system for Obsidian using macOS Voice Control and AppleScript",
+  "main": "scripts/captains_log.applescript",
+  "scripts": {
+    "test": "echo \"Testing AppleScript functionality\"",
+    "install": "echo \"Setup instructions in README.md\""
+  },
+  "keywords": [
+    "obsidian",
+    "voice-control",
+    "applescript",
+    "macos",
+    "logging",
+    "productivity",
+    "note-taking"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/captains-log-voice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/captains-log-voice/issues"
+  },
+  "homepage": "https://github.com/your-username/captains-log-voice#readme"
+}
