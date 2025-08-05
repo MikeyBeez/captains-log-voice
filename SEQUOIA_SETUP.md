@@ -19,17 +19,25 @@ Since AppleScript permissions are restricted in Sequoia, use this Shortcuts-base
    - Format: Custom
    - Custom Format: `yyyy-MM-dd-HH:mm`
 
-4. **Text** (combine the timestamp and entry)
+4. **Text** (create filename)
+   ```
+   [Formatted Date] Captain's Log.md
+   ```
+
+5. **Get File from Path**
+   - Path: `~/Documents/Obsidian/Daily Logs/[Text from step 4]`
+   - Create if Doesn't Exist: ON
+
+6. **Text** (format the entry)
    ```
    ## [Formatted Date] - Voice Note
    [Ask for Input]
    
    ```
 
-5. **Append to Text File**
-   - File: `Documents/Obsidian/Daily Logs/[Formatted Date] Captain's Log.md`
-   - Text: [Text from step 4]
-   - Make New File: If Needed
+7. **Append to Text File**
+   - File: [Get File from Path result]
+   - Text: [Text from step 6]
 
 ### 2. Name and Save
 - Name: "Captain's Log"

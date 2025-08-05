@@ -16,6 +16,7 @@
 - [ ] **Export functionality** - Convert logs to different formats (PDF, CSV, etc.)
 
 ## Completed
+- [x] ✅ **Fix Sequoia compatibility** - Used "Get File from Path" action for proper file handling
 - [x] ✅ **Fix vault path** - Updated AppleScript to use correct ~/Documents/Obsidian/ location
 - [x] ✅ **Create project structure** - Basic files and documentation complete
 - [x] ✅ **Push to GitHub** - Repository created and accessible
